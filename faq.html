@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    What is HTML
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    HTML is HyperText MarkUp Language, it's a structural lanaguage that helps in arraging your elements
+                    on your website.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    What is CSS?
+                </button>
+            </h2>
+            <div id="collapsetwo" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    CSS means Cascading Style Sheet, it's a Styling lanaguage that helps in styling your elements on
+                    your website.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    What is Javascript?
+                </button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Javascript is a programming Language
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<div class="progress mt-3 ">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+        style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">MY HTML Progress</div>
+</div>
+<div class="progress mt-3 ">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar"
+        style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">MY CSS Progress</div>
+</div>
+<div class="progress mt-3 ">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success " role="progressbar"
+        style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">MY Javascript Progress</div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="card mt-3 col-md-4 ">
+            <img src="./images/pexels-editz-central-editors-17117853-scaled-e1690273158715.jpg" class="card-img-top" style="size-adjust: 50%;"></card>
+            <card class="body">
+                <h1>Beans</h1>
+                <h5>$30,000</h3>
+                
+            </card>
+            <card class="footer">
+                <class class="btn btn-danger w-100 ">BUY NOW</class>
+            </card>
+        </div>
+        <div class="card mt-3 col-md-4 ">
+            <img src="./images/pexels-editz-central-editors-17117853-scaled-e1690273158715.jpg" class="card-img-top" style="size-adjust: 50%;"></card>
+            <card class="body">
+                <h1>Beans</h1>
+                <h5>$30,000</h3>
+                
+            </card>
+            <card class="footer">
+                <class class="btn btn-danger w-100 ">BUY NOW</class>
+            </card>
+        </div>
+        <div class="card mt-3 col-md-4 ">
+            <img src="./images/pexels-editz-central-editors-17117853-scaled-e1690273158715.jpg" class="card-img-top" style="size-adjust: 50%;"></card>
+            <card class="body">
+                <h1>Beans</h1>
+                <h5>$30,000</h3>
+                
+            </card>
+            <card class="footer">
+                <class class="btn btn-danger w-100 ">BUY NOW</class>
+            </card>
+        </div>
+
+    </div>
+
+</div>
+
+
+    <script src="./bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
